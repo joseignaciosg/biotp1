@@ -1,4 +1,4 @@
-ex1.pl
+ej1.pl
 
 Toma una archivo .gb y lo transforma en un nuevo archivo en formato FASTA usando GenBank remotamente.
 

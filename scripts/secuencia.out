@@ -1,4 +1,4 @@
-BLASTP 2.2.27+
+BLASTP 2.2.30+
 
 
 Stephen F. Altschul, Thomas L. Madden, Alejandro
@@ -11,32 +11,33 @@ Query= blast-sequence-temp-id
        (229 letters)
 
 Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
-           21,246,309 sequences; 7,277,908,795 total letters
+           52,482,795 sequences; 18,863,293,126 total letters
 
                                                                  Score       E
 Sequences producing significant alignments:                      (bits)    value
-gb|AAR95703.1| globulin [Triticum turgidum]gb|AFG73683.1| glo...   345   3e-117
-gb|ABG68030.1| globulin 1 [Triticum aestivum]                       343   1e-116
-gb|ABG68039.1| globulin 1 [Triticum aestivum]                       333   8e-113
-gb|AAM77580.1| seed globulin [Aegilops tauschii]                    333   8e-113
-gb|AAP80642.1|AF475121_1 19 kDa globulin [Triticum aestivum]        333   1e-112
-gb|AAQ93632.1| globulin [Triticum turgidum]                         306   5e-102
-gb|ABG68034.1| globulin 1 [Triticum aestivum]                       304   3e-101
-dbj|BAK07472.1| predicted protein [Hordeum vulgare subsp. vulgare]   259   6e-84
-gb|AAP31050.1| globulin [Hordeum vulgare]                           259   6e-84
-gb|ACR61557.1| seed globulin [Brachypodium distachyon]              126   3e-32
-gb|AAA72362.1| unnamed protein product [Oryza sativa Japonica Group]   119   7e-30
-emb|CAA45400.1| 19 kDa globulin precursor [Oryza sativa Japoni...   119   1e-29
-ref|NP_001055954.1| Os05g0499100 [Oryza sativa Japonica Group]...   119   1e-29
-ref|NP_001105060.1| globulin3 precursor [Zea mays]gb|AAL16993...   103   9e-24
-ref|XP_002441331.1| hypothetical protein SORBIDRAFT_09g024570 ...   102   2e-23
-ref|NP_001152635.1| globulin precursor [Zea mays]gb|ACG48649....   99.8  2e-22
+gb|AAR95703.1| globulin [Triticum turgidum]gb|AFG73683.1| glo...   345   7e-117
+gb|ABG68030.1| globulin 1 [Triticum aestivum]                       343   3e-116
+gb|ABG68039.1| globulin 1 [Triticum aestivum]                       333   2e-112
+gb|AAM77580.1| seed globulin [Aegilops tauschii]                    333   2e-112
+gb|AAP80642.1|AF475121_1 19 kDa globulin [Triticum aestivum]        333   3e-112
+gb|AAQ93632.1| globulin [Triticum turgidum]                         306   1e-101
+gb|ABG68034.1| globulin 1 [Triticum aestivum]                       304   7e-101
+dbj|BAK07472.1| predicted protein [Hordeum vulgare subsp. vulgare]   259   2e-83
+gb|AAP31050.1| globulin [Hordeum vulgare]                           259   2e-83
+gb|ACR61557.1| seed globulin [Brachypodium distachyon]              126   9e-32
+gb|AAA72362.1| unnamed protein product [Oryza sativa Japonica Group]   119   2e-29
+emb|CAA45400.1| 19 kDa globulin precursor [Oryza sativa Japoni...   119   2e-29
+ref|NP_001055954.1| Os05g0499100 [Oryza sativa Japonica Group]...   119   2e-29
+ref|XP_004961615.1| PREDICTED: 19 kDa globulin-like [Setaria i...   104   6e-24
+ref|NP_001105060.1| globulin3 precursor [Zea mays]gb|AAL16993...   103   2e-23
+ref|XP_002441331.1| hypothetical protein SORBIDRAFT_09g024570 ...   102   6e-23
+ref|NP_001152635.1| globulin precursor [Zea mays]gb|ACG48649....   99.8  5e-22
 
 
 >gb|AAR95703.1| globulin [Triticum turgidum]gb|AFG73683.1| globulin [Triticum urartu]
          Length = 229
 
- Score =  345 bits (884), Expect = 3e-117
+ Score =  345 bits (884), Expect = 7e-117
  Identities = 209/209 (100%), Positives = 209/209 (100%)
 
 
@@ -60,7 +61,7 @@ Sbjct: 201 VRLTKVRLPTACRIEPQECSVFSADQYYY 229
 >gb|ABG68030.1| globulin 1 [Triticum aestivum]
          Length = 229
 
- Score =  343 bits (880), Expect = 1e-116
+ Score =  343 bits (880), Expect = 3e-116
  Identities = 208/209 (99%), Positives = 209/209 (100%)
 
 
@@ -84,7 +85,7 @@ Sbjct: 201 VRLTKVRLPTACRIEPQECSVFSADQYYY 229
 >gb|ABG68039.1| globulin 1 [Triticum aestivum]
          Length = 226
 
- Score =  333 bits (854), Expect = 8e-113
+ Score =  333 bits (854), Expect = 2e-112
  Identities = 191/208 (91%), Positives = 194/208 (93%), Gaps = 2/208 (0%)
 
 
@@ -108,7 +109,7 @@ Sbjct: 199 VRLTKVRLPTACRIEPQECSVFTADQYY 226
 >gb|AAM77580.1| seed globulin [Aegilops tauschii]
          Length = 226
 
- Score =  333 bits (854), Expect = 8e-113
+ Score =  333 bits (854), Expect = 2e-112
  Identities = 191/208 (91%), Positives = 194/208 (93%), Gaps = 2/208 (0%)
 
 
@@ -132,7 +133,7 @@ Sbjct: 199 VRLTKVRLPTACRIEPQECSVFTADQYY 226
 >gb|AAP80642.1|AF475121_1 19 kDa globulin [Triticum aestivum]
          Length = 241
 
- Score =  333 bits (855), Expect = 1e-112
+ Score =  333 bits (855), Expect = 3e-112
  Identities = 204/209 (97%), Positives = 204/209 (97%)
 
 
@@ -156,7 +157,7 @@ Sbjct: 213 VXLTKVRLPTACRIEPXECSVFXADQYYY 241
 >gb|AAQ93632.1| globulin [Triticum turgidum]
          Length = 225
 
- Score =  306 bits (783), Expect = 5e-102
+ Score =  306 bits (783), Expect = 1e-101
  Identities = 181/208 (87%), Positives = 183/208 (87%), Gaps = 3/208 (1%)
 
 
@@ -180,7 +181,7 @@ Sbjct: 198 VRLTKVRLPTACRIEPQECSVFFADQYY 225
 >gb|ABG68034.1| globulin 1 [Triticum aestivum]
          Length = 225
 
- Score =  304 bits (778), Expect = 3e-101
+ Score =  304 bits (778), Expect = 7e-101
  Identities = 180/208 (86%), Positives = 182/208 (87%), Gaps = 3/208 (1%)
 
 
@@ -204,7 +205,7 @@ Sbjct: 198 VRLTKVRLPTACRIEPQECSVFFADQYY 225
 >dbj|BAK07472.1| predicted protein [Hordeum vulgare subsp. vulgare]
          Length = 224
 
- Score =  259 bits (663), Expect = 6e-84
+ Score =  259 bits (663), Expect = 2e-83
  Identities = 166/204 (81%), Positives = 175/204 (85%), Gaps = 7/204 (3%)
 
 
@@ -228,7 +229,7 @@ Sbjct: 195 RVRLTKVRLPTACRIEPQECSVFS 218
 >gb|AAP31050.1| globulin [Hordeum vulgare]
          Length = 224
 
- Score =  259 bits (663), Expect = 6e-84
+ Score =  259 bits (663), Expect = 2e-83
  Identities = 166/204 (81%), Positives = 175/204 (85%), Gaps = 7/204 (3%)
 
 
@@ -252,7 +253,7 @@ Sbjct: 195 RVRLTKVRLPTACRIEPQECSVFS 218
 >gb|ACR61557.1| seed globulin [Brachypodium distachyon]
          Length = 232
 
- Score =  126 bits (317), Expect = 3e-32
+ Score =  126 bits (317), Expect = 9e-32
  Identities = 95/211 (45%), Positives = 114/211 (54%), Gaps = 29/211 (13%)
 
 
@@ -276,7 +277,7 @@ Sbjct: 191 VGLIKARRYMAGLPTMCQIEPMECGVFSPDE 221
 >gb|AAA72362.1| unnamed protein product [Oryza sativa Japonica Group]
          Length = 174
 
- Score =  119 bits (297), Expect = 7e-30
+ Score =  119 bits (297), Expect = 2e-29
  Identities = 82/215 (38%), Positives = 104/215 (48%), Gaps = 68/215 (31%)
 
 
@@ -300,7 +301,7 @@ Sbjct: 140 MTRVRLTRARQYAAQLPSMCRVEPQQCSIFAAGQY 174
 >emb|CAA45400.1| 19 kDa globulin precursor [Oryza sativa Japonica Group]
          Length = 186
 
- Score =  119 bits (297), Expect = 1e-29
+ Score =  119 bits (297), Expect = 2e-29
  Identities = 82/215 (38%), Positives = 104/215 (48%), Gaps = 68/215 (31%)
 
 
@@ -321,10 +322,10 @@ Query: 198 AGRVRLTKVR-----LPTACRIEPQECSVFSADQY 227
 Sbjct: 152 MTRVRLTRARQYAAQLPSMCRVEPQQCSIFAAGQY 186
 
 
->ref|NP_001055954.1| Os05g0499100 [Oryza sativa Japonica Group]sp|P29835.2|GL19_ORYSJ RecName: Full=19 kDa globulin; AltName: Full=Alpha-globulin; Flags: Precursordbj|BAA09308.1| 26 kDa globulin [Oryza sativa Japonica Group]gb|AAT44292.1| putative alpha-globulin [Oryza sativa Japonica Group]gb|AAT93857.1| alpha-globulin [Oryza sativa Japonica Group]dbj|BAF17868.1| Os05g0499100 [Oryza sativa Japonica Group]gb|ABL74565.1| alpha-globulin [Oryza sativa Japonica Group]gb|EAY98575.1| hypothetical protein OsI_20488 [Oryza sativa Indica Group]dbj|BAH01389.1| unnamed protein product [Oryza sativa Japonica Group]gb|EEE64246.1| hypothetical protein OsJ_19079 [Oryza sativa Japonica Group]gb|ADM86882.1| alpha-glubulin [Oryza sativa Japonica Group]
+>ref|NP_001055954.1| Os05g0499100 [Oryza sativa Japonica Group]sp|P29835.2|GL19_ORYSJ RecName: Full=19 kDa globulin; AltName: Full=Alpha-globulin; Flags: Precursor [Oryza sativa Japonica Group]dbj|BAA09308.1| 26 kDa globulin [Oryza sativa Japonica Group]gb|AAT44292.1| putative alpha-globulin [Oryza sativa Japonica Group]gb|AAT93857.1| alpha-globulin [Oryza sativa Japonica Group]dbj|BAF17868.1| Os05g0499100 [Oryza sativa Japonica Group]gb|ABL74565.1| alpha-globulin [Oryza sativa Japonica Group]gb|EAY98575.1| hypothetical protein OsI_20488 [Oryza sativa Indica Group]dbj|BAH01389.1| unnamed protein product [Oryza sativa Japonica Group]gb|EEE64246.1| hypothetical protein OsJ_19079 [Oryza sativa Japonica Group]gb|ADM86882.1| alpha-glubulin [Oryza sativa Japonica Group]
          Length = 186
 
- Score =  119 bits (297), Expect = 1e-29
+ Score =  119 bits (297), Expect = 2e-29
  Identities = 82/215 (38%), Positives = 104/215 (48%), Gaps = 68/215 (31%)
 
 
@@ -345,10 +346,26 @@ Query: 198 AGRVRLTKVR-----LPTACRIEPQECSVFSADQY 227
 Sbjct: 152 MTRVRLTRARQYAAQLPSMCRVEPQQCSIFAAGQY 186
 
 
->ref|NP_001105060.1| globulin3 precursor [Zea mays]gb|AAL16993.1| alpha globulin [Zea mays]gb|ACN26033.1| unknown [Zea mays]gb|ACR61553.1| globulin 1 [Zea mays]
+>ref|XP_004961615.1| PREDICTED: 19 kDa globulin-like [Setaria italica]
+         Length = 177
+
+ Score =  104 bits (259), Expect = 6e-24
+ Identities = 55/109 (50%), Positives = 70/109 (64%), Gaps = 3/109 (2%)
+
+
+Query: 22  GVLEQSLTDAQCRGEVREKPLLACRQILEQQLTGRAGEGAVGVPLFQAQWGARERCCRQL 81
+           G   Q L D +C+ EV E PL ACRQ+L++QLTG       GV  F+   G R RCC+QL 
+Sbjct: 27  GFERQRLRDLRCQREVEENPLWACRQVLDRQLTGGM---RYGVGPFRWGTGLRMRCCQQL 83
+
+Query: 82  ESVSRECRCAALRGMVRDYEQSMPPLGEGRHGSSGERQQEQGCSGESTE 130
+           + VSRECRC+A+R MVR YE++MPPL EG +G  GE+ +     GE  E 
+Sbjct: 84  QDVSRECRCSAVRRMVRGYEEAMPPLEEGPYGYGGEQGEGYYGGGEGGE 132
+
+
+>ref|NP_001105060.1| globulin3 precursor [Zea mays]gb|AAL16993.1| alpha globulin [Zea mays]gb|ACN26033.1| unknown [Zea mays]gb|ACR61553.1| globulin 1 [Zea mays]gb|AFW78555.1| globulin [Zea mays]
          Length = 206
 
- Score =  103 bits (257), Expect = 9e-24
+ Score =  103 bits (257), Expect = 2e-23
  Identities = 54/91 (59%), Positives = 66/91 (72%), Gaps = 3/91 (3%)
 
 
@@ -364,7 +381,7 @@ Sbjct: 82  QLQDVSRECRCAAIRSMVRGYEEAMPPLEKG 112
 >ref|XP_002441331.1| hypothetical protein SORBIDRAFT_09g024570 [Sorghum bicolor]gb|EES19761.1| hypothetical protein SORBIDRAFT_09g024570 [Sorghum bicolor]
          Length = 192
 
- Score =  102 bits (253), Expect = 2e-23
+ Score =  102 bits (253), Expect = 6e-23
  Identities = 55/106 (51%), Positives = 70/106 (66%), Gaps = 4/106 (3%)
 
 
@@ -380,7 +397,7 @@ Sbjct: 82  QLQDVSRECRCAAIRSMVRGYEETMPPLEKGWWGQQPQPGYDYPCS 127
 >ref|NP_001152635.1| globulin precursor [Zea mays]gb|ACG48649.1| globulin precursor [Zea mays]
          Length = 197
 
- Score = 99.8 bits (247), Expect = 2e-22
+ Score = 99.8 bits (247), Expect = 5e-22
  Identities = 54/91 (59%), Positives = 66/91 (72%), Gaps = 6/91 (6%)
 
 
@@ -394,21 +411,21 @@ Sbjct: 81  QLQDVSRECRCAAIRSMVRGYEEAMPPLEKG 111
 
 
   Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
-    Posted date:  Oct 29, 2012  2:13 AM
-	Number of letters in database: 7,277,908,795
-	Number of sequences in database: 21,246,309
+    Posted date:  Nov 9, 2014  10:32 PM
+	Number of letters in database: 18,863,293,126
+	Number of sequences in database: 52,482,795
 
   Matrix: BLOSUM62
   Gap Penalties Existence: 11, Extension: 1
-expect: 1e-10
 allowgaps: yes
+expect: 1e-10
 Search Statistics
 A: 40
-Hits_to_DB: 125,738,197
+Hits_to_DB: 312,373,531
 S1: 41
 S1_bits: 20.4
-S2: 175
-S2_bits: 72.0
+S2: 178
+S2_bits: 73.2
 T: 11
 X1: 16
 X1_bits: 7.3
@@ -416,24 +433,24 @@ X2: 38
 X2_bits: 14.6
 X3: 64
 X3_bits: 24.7
-dbentries: 21,246,309
-dbletters: 7,277,908,795
-effectivedblength: 4,367,164,462
-effectivespace: 401,779,130,504
-effectivespaceused: 401,779,130,504
+dbentries: 52,482,795
+dbletters: 18,863,293,126
+effectivedblength: 11,358,253,441
+effectivespace: 976,809,795,926
+effectivespaceused: 976,809,795,926
 entropy: 0.403
 entropy_gapped: 0.140
 kappa: 0.133
 kappa_gapped: 0.0410
 lambda: 0.317
 lambda_gapped: 0.267
-length_adjustment: 137
-num_extensions: 4,396,146
-num_successful_extensions: 9,098
+length_adjustment: 143
+num_extensions: 10,381,153
+num_successful_extensions: 19,747
 number_of_hsps_better_than_expect_value_cutoff_without_gapping: 0
-number_of_hsps_gapped: 9,103
+number_of_hsps_gapped: 19,758
 number_of_hsps_successfully_gapped: 0
-querylength: 92
+querylength: 86
 seqs_better_than_1e-10: 0
 
 
