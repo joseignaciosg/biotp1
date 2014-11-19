@@ -1,10 +1,17 @@
 DESCRIPCIÓN DE LOS DISTINTOS SCRIPTS
 
+Elegimos el siguiente gen para realizar el trabajo:
+
+DSCR3 Down syndrome critical region 3 [ Homo sapiens (human) ]
+
+Se trata del gen asociado con el síndrome de Down. 
+
 ej1.pl
 
 Dado un archivo .gb como input, lo transforma en un nuevo archivo en formato FASTA usando GenBank (remoto).
 
-Invocacion: perl ej1.pl archivogb.gb fasta.fa
+Invocacion: perl ej1.pl archivo.gb fasta.fa
+
 
 ej2.pl
 
