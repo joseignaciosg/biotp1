@@ -8,11 +8,11 @@ Invocacion: perl ej1.pl archivogb.gb fasta.fa
 
 ej2.pl
 
-Dado un archivo formato Fasta como input,da  como outputñ un archivo .out en formato Blast.
+Dado un archivo formato Fasta como input,da  como output un archivo .out en formato Blast.
 
 Invocacioin: perl ej2.pl fasta.fa blast.out
 
-Recibe como primer parametro el archivo Fasta y como segundo parametro se le indica donde queremos la salida y con que nombre de archivo. Hace un blast de forma remota.
+Hace un blast de forma remota.
 
 En este caso usamos como archivo Fasta el que corresponde a:
 
