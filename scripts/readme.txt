@@ -1,14 +1,16 @@
+DESCRIPCIÓN DE LOS DISTINTOS SCRIPTS
+
 ej1.pl
 
-Toma una archivo .gb y lo transforma en un nuevo archivo en formato FASTA usando GenBank remotamente.
+Dado un archivo .gb como input, lo transforma en un nuevo archivo en formato FASTA usando GenBank (remoto).
 
-Se invoca utilizando: Perl ex1.pl archivogb.gb salidafasta.fa
+Invocacion: perl ej1.pl archivogb.gb fasta.fa
 
-ex2.pl
+ej2.pl
 
-Toma un archivo formato Fasta y tiene como salida un archivo .out en formato Blast.
+Dado un archivo formato Fasta como input,da  como outputñ un archivo .out en formato Blast.
 
-Se invoca utilizando: Perl ex2.pl archivofasta.fa archivosalida.out
+Invocacioin: perl ej2.pl fasta.fa blast.out
 
 Recibe como primer parametro el archivo Fasta y como segundo parametro se le indica donde queremos la salida y con que nombre de archivo. Hace un blast de forma remota.
 
@@ -24,11 +26,11 @@ Triticum aestivum
 
 Entre otras.
 
-ex3.pl
+ej3.pl
 
-Este ejercicio toma un archivo en formato Blast y devuelve solo las especies que coinciden con la entrada indicada. Para esto parse el archivo y por cada hit del Blast analiza la descripción dónde se indica la especie.
+Dado un archivo en formato Blast como input, devuelve solo las especies que coinciden con la entrada indicada. Para esto parse el archivo y por cada hit del Blast analiza la descripción dónde se indica la especie.
 
-Se invoca utilizando: Perl ex3.pl secuencia.out "Zea mays"
+Se invoca utilizando: perl ej3.pl secuencia.out "Zea mays"
 
 Esto va a devolver todos los que coincidan con la especie Zea mays dentro del archivo secuencia.out
 
