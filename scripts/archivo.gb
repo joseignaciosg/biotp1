@@ -1,382 +1,220 @@
-LOCUS       NC_000006               9650 bp    DNA     linear   CON 03-FEB-2014
-DEFINITION  Homo sapiens chromosome 6, GRCh38 Primary Assembly.
-ACCESSION   NC_000006 REGION: complement(87085498..87095147) GPC_000001298
-VERSION     NC_000006.12  GI:568815592
-DBLINK      BioProject: PRJNA168
-            Assembly: GCF_000001405.26
+LOCUS       NM_006052               3252 bp    mRNA    linear   PRI 16-NOV-2014
+DEFINITION  Homo sapiens Down syndrome critical region 3 (DSCR3), mRNA.
+ACCESSION   NM_006052
+VERSION     NM_006052.1  GI:5174424
 KEYWORDS    RefSeq.
 SOURCE      Homo sapiens (human)
   ORGANISM  Homo sapiens
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Hominidae; Homo.
-REFERENCE   1  (bases 1 to 9650)
-  CONSRTM   International Human Genome Sequencing Consortium
-  TITLE     Finishing the euchromatic sequence of the human genome
-  JOURNAL   Nature 431 (7011), 931-945 (2004)
-   PUBMED   15496913
-REFERENCE   2  (bases 1 to 9650)
-  AUTHORS   Mungall,A.J., Palmer,S.A., Sims,S.K., Edwards,C.A., Ashurst,J.L.,
-            Wilming,L., Jones,M.C., Horton,R., Hunt,S.E., Scott,C.E.,
-            Gilbert,J.G., Clamp,M.E., Bethel,G., Milne,S., Ainscough,R.,
-            Almeida,J.P., Ambrose,K.D., Andrews,T.D., Ashwell,R.I.,
-            Babbage,A.K., Bagguley,C.L., Bailey,J., Banerjee,R., Barker,D.J.,
-            Barlow,K.F., Bates,K., Beare,D.M., Beasley,H., Beasley,O.,
-            Bird,C.P., Blakey,S., Bray-Allen,S., Brook,J., Brown,A.J.,
-            Brown,J.Y., Burford,D.C., Burrill,W., Burton,J., Carder,C.,
-            Carter,N.P., Chapman,J.C., Clark,S.Y., Clark,G., Clee,C.M.,
-            Clegg,S., Cobley,V., Collier,R.E., Collins,J.E., Colman,L.K.,
-            Corby,N.R., Coville,G.J., Culley,K.M., Dhami,P., Davies,J.,
-            Dunn,M., Earthrowl,M.E., Ellington,A.E., Evans,K.A., Faulkner,L.,
-            Francis,M.D., Frankish,A., Frankland,J., French,L., Garner,P.,
-            Garnett,J., Ghori,M.J., Gilby,L.M., Gillson,C.J., Glithero,R.J.,
-            Grafham,D.V., Grant,M., Gribble,S., Griffiths,C., Griffiths,M.,
-            Hall,R., Halls,K.S., Hammond,S., Harley,J.L., Hart,E.A.,
-            Heath,P.D., Heathcott,R., Holmes,S.J., Howden,P.J., Howe,K.L.,
-            Howell,G.R., Huckle,E., Humphray,S.J., Humphries,M.D., Hunt,A.R.,
-            Johnson,C.M., Joy,A.A., Kay,M., Keenan,S.J., Kimberley,A.M.,
-            King,A., Laird,G.K., Langford,C., Lawlor,S., Leongamornlert,D.A.,
-            Leversha,M., Lloyd,C.R., Lloyd,D.M., Loveland,J.E., Lovell,J.,
-            Martin,S., Mashreghi-Mohammadi,M., Maslen,G.L., Matthews,L.,
-            McCann,O.T., McLaren,S.J., McLay,K., McMurray,A., Moore,M.J.,
-            Mullikin,J.C., Niblett,D., Nickerson,T., Novik,K.L., Oliver,K.,
-            Overton-Larty,E.K., Parker,A., Patel,R., Pearce,A.V., Peck,A.I.,
-            Phillimore,B., Phillips,S., Plumb,R.W., Porter,K.M., Ramsey,Y.,
-            Ranby,S.A., Rice,C.M., Ross,M.T., Searle,S.M., Sehra,H.K.,
-            Sheridan,E., Skuce,C.D., Smith,S., Smith,M., Spraggon,L.,
-            Squares,S.L., Steward,C.A., Sycamore,N., Tamlyn-Hall,G., Tester,J.,
-            Theaker,A.J., Thomas,D.W., Thorpe,A., Tracey,A., Tromans,A.,
-            Tubby,B., Wall,M., Wallis,J.M., West,A.P., White,S.S.,
-            Whitehead,S.L., Whittaker,H., Wild,A., Willey,D.J., Wilmer,T.E.,
-            Wood,J.M., Wray,P.W., Wyatt,J.C., Young,L., Younger,R.M.,
-            Bentley,D.R., Coulson,A., Durbin,R., Hubbard,T., Sulston,J.E.,
-            Dunham,I., Rogers,J. and Beck,S.
-  TITLE     The DNA sequence and analysis of human chromosome 6
-  JOURNAL   Nature 425 (6960), 805-811 (2003)
-   PUBMED   14574404
-REFERENCE   3  (bases 1 to 9650)
-  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
-            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
-            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
-            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
-            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
-            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
-            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
-            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
-            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
-            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
-            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
-            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
-            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
-            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
-            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
-            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
-            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
-            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
-            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
-            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
-            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
-            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
-            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
-            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
-            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
-            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
-            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
-            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
-            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
-            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
-            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
-            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
-            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
-            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
-            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
-            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
-            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
-            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
-            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
-            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
-            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
-            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
-            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
-            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
-            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
-            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
-            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
-            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
-            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
-            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
-            Chen,Y.J.
-  CONSRTM   International Human Genome Sequencing Consortium
-  TITLE     Initial sequencing and analysis of the human genome
-  JOURNAL   Nature 409 (6822), 860-921 (2001)
-   PUBMED   11237011
-  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
-COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
-            CM000668.2.
-            On Feb 3, 2014 this sequence version replaced gi:224589818.
-            Assembly Name: GRCh38 Primary Assembly
-            The DNA sequence is composed of genomic sequence, primarily
-            finished clones that were sequenced as part of the Human Genome
-            Project. PCR products and WGS shotgun sequence have been added
-            where necessary to fill gaps or correct errors. All such additions
-            are manually curated by GRC staff. For more information see:
-            http://genomereference.org.
+REFERENCE   1  (bases 1 to 3252)
+  AUTHORS   Hu YH, Warnatz HJ, Vanhecke D, Wagner F, Fiebitz A, Thamm S, Kahlem
+            P, Lehrach H, Yaspo ML and Janitz M.
+  TITLE     Cell array-based intracellular localization screening reveals novel
+            functional features of human chromosome 21 proteins
+  JOURNAL   BMC Genomics 7, 155 (2006)
+   PUBMED   16780588
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3252)
+  AUTHORS   Dahmane N, Ghezala GA, Gosset P, Chamoun Z, Dufresne-Zacharia MC,
+            Lopes C, Rabatel N, Gassanova-Maugenre S, Chettouh Z, Abramowski V,
+            Fayet E, Yaspo ML, Korn B, Blouin JL, Lehrach H, Poutska A,
+            Antonarakis SE, Sinet PM, Creau N and Delabar JM.
+  TITLE     Transcriptional map of the 2.5-Mb CBR-ERG region of chromosome 21
+            involved in Down syndrome
+  JOURNAL   Genomics 48 (1), 12-23 (1998)
+   PUBMED   9503011
+REFERENCE   3  (bases 1 to 3252)
+  AUTHORS   Nakamura A, Hattori M and Sakaki Y.
+  TITLE     Isolation of a novel human gene from the Down syndrome critical
+            region of chromosome 21q22.2
+  JOURNAL   J. Biochem. 122 (4), 872-877 (1997)
+   PUBMED   9399594
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from D87343.1.
+            This sequence is a reference standard in the RefSeqGene project.
             
-            ##Genome-Annotation-Data-START##
-            Annotation Provider         :: NCBI
-            Annotation Status           :: Full annotation
-            Annotation Version          :: Homo sapiens Annotation Release 106
-            Annotation Pipeline         :: NCBI eukaryotic genome annotation
-                                           pipeline
-            Annotation Software Version :: 5.2
-            Annotation Method           :: Best-placed RefSeq; Gnomon
-            Features Annotated          :: Gene; mRNA; CDS; ncRNA
-            ##Genome-Annotation-Data-END##
+            Summary: The region of chromosome 21 between genes CBR and ERG
+            (CBR-ERG region), which spans 2.5 Mb on 21q22.2, has been defined
+            by analysis of patients with partial trisomy 21. It contributes
+            significantly to the pathogenesis of many characteristics of Down
+            syndrome, including morphological features, hypotonia, and mental
+            retardation. The DSCR3 (Down syndrome critical region gene 3) gene
+            is found in this region and is predictated to contain eight exons.
+            DSCR3 is expressed in most tissues examined. [provided by RefSeq,
+            Jul 2008].
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: D87343.1, BC110655.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           ERS025087, ERS025093 [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
-     source          1..9650
+     source          1..3252
                      /organism="Homo sapiens"
-                     /mol_type="genomic DNA"
+                     /mol_type="mRNA"
                      /db_xref="taxon:9606"
-                     /chromosome="6"
-     gene            1..9650
-                     /gene="CGA"
-                     /gene_synonym="CG-ALPHA; FSHA; GPHa; GPHA1; HCG; LHA;
-                     TSHA"
-                     /note="glycoprotein hormones, alpha polypeptide; Derived
-                     by automated computational analysis using gene prediction
-                     method: BestRefSeq."
-                     /db_xref="GeneID:1081"
-                     /db_xref="HGNC:HGNC:1885"
-                     /db_xref="HPRD:00342"
-                     /db_xref="MIM:118850"
-     mRNA            join(1..135,6941..7035,8714..8898,9315..9650)
-                     /gene="CGA"
-                     /gene_synonym="CG-ALPHA; FSHA; GPHa; GPHA1; HCG; LHA;
-                     TSHA"
-                     /product="glycoprotein hormones, alpha polypeptide,
-                     transcript variant 2"
-                     /note="Derived by automated computational analysis using
-                     gene prediction method: BestRefSeq."
-                     /transcript_id="NM_000735.3"
-                     /db_xref="GI:356874782"
-                     /db_xref="GeneID:1081"
-                     /db_xref="HGNC:HGNC:1885"
-                     /db_xref="HPRD:00342"
-                     /db_xref="MIM:118850"
-     mRNA            join(1..135,6941..7035,8539..8631,8714..8898,9315..9650)
-                     /gene="CGA"
-                     /gene_synonym="CG-ALPHA; FSHA; GPHa; GPHA1; HCG; LHA;
-                     TSHA"
-                     /product="glycoprotein hormones, alpha polypeptide,
-                     transcript variant 1"
-                     /note="Derived by automated computational analysis using
-                     gene prediction method: BestRefSeq."
-                     /transcript_id="NM_001252383.1"
-                     /db_xref="GI:356874783"
-                     /db_xref="GeneID:1081"
-                     /db_xref="HGNC:HGNC:1885"
-                     /db_xref="HPRD:00342"
-                     /db_xref="MIM:118850"
-     CDS             join(6948..7035,8714..8898,9315..9392)
-                     /gene="CGA"
-                     /gene_synonym="CG-ALPHA; FSHA; GPHa; GPHA1; HCG; LHA;
-                     TSHA"
-                     /note="isoform 2 precursor is encoded by transcript
-                     variant 2; Derived by automated computational analysis
-                     using gene prediction method: BestRefSeq."
+                     /chromosome="21"
+                     /map="21q22.2"
+     gene            1..3252
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /note="Down syndrome critical region 3"
+                     /db_xref="GeneID:10311"
+                     /db_xref="HGNC:HGNC:3044"
+                     /db_xref="HPRD:10390"
+                     /db_xref="MIM:605298"
+     exon            1..296
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     misc_feature    123..125
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /note="upstream in-frame stop codon"
+     CDS             240..1133
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /note="Down syndrome critical region protein A; Down
+                     syndrome critical region gene 3"
                      /codon_start=1
-                     /product="glycoprotein hormones alpha chain isoform 2
-                     precursor"
-                     /protein_id="NP_000726.1"
-                     /db_xref="GI:4502787"
-                     /db_xref="CCDS:CCDS5007.1"
-                     /db_xref="GeneID:1081"
-                     /db_xref="HGNC:HGNC:1885"
-                     /db_xref="HPRD:00342"
-                     /db_xref="MIM:118850"
-                     /translation="MDYYRKYAAIFLVTLSVFLHVLHSAPDVQDCPECTLQENPFFSQ
-                     PGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCCVAKSYNRVTVMGGFKVEN
-                     HTACHCSTCYYHKS"
-     CDS             join(6948..7035,8539..8631,8714..8898,9315..9392)
-                     /gene="CGA"
-                     /gene_synonym="CG-ALPHA; FSHA; GPHa; GPHA1; HCG; LHA;
-                     TSHA"
-                     /note="isoform 1 precursor is encoded by transcript
-                     variant 1; Derived by automated computational analysis
-                     using gene prediction method: BestRefSeq."
-                     /codon_start=1
-                     /product="glycoprotein hormones alpha chain isoform 1
-                     precursor"
-                     /protein_id="NP_001239312.1"
-                     /db_xref="GI:356874784"
-                     /db_xref="GeneID:1081"
-                     /db_xref="HGNC:HGNC:1885"
-                     /db_xref="HPRD:00342"
-                     /db_xref="MIM:118850"
-                     /translation="MDYYRKYAAIFLVTLSVFLHVLHSAPDVQETGFHHVAQAALKLL
-                     SSSNPPTKASQSARITDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTM
-                     LVQKNVTSESTCCVAKSYNRVTVMGGFKVENHTACHCSTCYYHKS"
+                     /product="Down syndrome critical region protein 3"
+                     /protein_id="NP_006043.1"
+                     /db_xref="GI:5174425"
+                     /db_xref="CCDS:CCDS33553.1"
+                     /db_xref="GeneID:10311"
+                     /db_xref="HGNC:HGNC:3044"
+                     /db_xref="HPRD:10390"
+                     /db_xref="MIM:605298"
+                     /translation="MGTALDIKIKRANKVYHAGEVLSGVVVISSKDSVQHQGVSLTME
+                     GTVNLQLSAKSVGVFEAFYNSVKPIQIINSTIEMVKPGKFPSGKTEIPFEFPLHLKGN
+                     KVLYETYHGVFVNIQYTLRCDMKRSLLAKDLTKTCEFIVHSAPQKGKFTPSPVDFTIT
+                     PETLQNVKERALLPKFLLRGHLNSTNCVITQPLTGELVVESSEAAIRSVELQLVRVET
+                     CGCAEGYARDATEIQNIQIADGDVCRGLSVPIYMVFPRLFTCPTLETTNFKVEFEVNI
+                     VVLLHPDHLITENFPLKLCRI"
+     exon            297..440
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            441..590
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            591..671
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            672..746
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            747..897
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            898..1050
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     exon            1051..3252
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /inference="alignment:Splign:1.39.8"
+     STS             1779..1867
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="D8S2279"
+                     /db_xref="UniSTS:473907"
+     STS             1782..2401
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="GDB:335751"
+                     /db_xref="UniSTS:156601"
+     STS             1782..1947
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="GDB:335751"
+                     /db_xref="UniSTS:156601"
+     STS             1849..1951
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="D11S3114"
+                     /db_xref="UniSTS:152207"
+     STS             2942..3091
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="SHGC-87617"
+                     /db_xref="UniSTS:65290"
+     STS             3045..3229
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="A005S21"
+                     /db_xref="UniSTS:6426"
+     STS             3045..3229
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
+                     /standard_name="G20460"
+                     /db_xref="UniSTS:6425"
+     polyA_signal    3231..3236
+                     /gene="DSCR3"
+                     /gene_synonym="DCRA; DSCRA"
 ORIGIN      
-        1 acactctgct ggtataaaag caggtgagga cttcattaac tgcagttact gagaactcat
-       61 aagacgaagc taaaatccct cttcggatcc acagtcaacc gccctgaaca catcctgcaa
-      121 aaagcccaga gaaaggtaat atgaatgaaa taattttggg ggactttaat tgaggagtaa
-      181 aatatttgag aatatgagga agattccaaa gtctctgcat ataccttaat aagaactgag
-      241 acaggctttt actcattctc ttttcagcac ttatgattga attagaagga agtctgtaaa
-      301 atttggctgt gatcataggg taagatgtta tctaacagaa gccagaaacc caatgtctcc
-      361 tgctgagatg cttgagtgcc tgtcaggatc taaaaatttt cctcaagaat tactgtatgt
-      421 cattggaaag acgttctttt gagtggcttc caggagccag acagagggca agtagacatt
-      481 atgatattgt tttattatcc atttttaagt gatgtatagc tatatcttca agctggccca
-      541 tgataaagtg gttcacttgt tcagctgaat gactatagct tctgattatc ttttgaatag
-      601 atgttctcat gcagacttga atagtagcat ggaatttctt gaatgtcgtt gttttcattt
-      661 ttcttcttta ataaaatgct acaaaaatca aagttggtag tatttctcta gctattattc
-      721 atgaatttgc aatgataagt cacttgccca agtctaattg attagttcca atgagtttct
-      781 ggaaactttt ttgcagctaa ccttggttat cttagcatta gcattaattg gtggctgatt
-      841 gggaaataga cactagaaaa taaaagacct tttttgtccc tccttattag cgttgaagaa
-      901 taggctatgg gcacgtgtga agaactatgg gctgacacta tatgggtccc ttaggaatgc
-      961 agaagctccc tttcatctct gtagatattt tgtttcttaa gctcttcaat ctttttccca
-     1021 gtcaaaagtc agatattttg ctttagaaaa ggaatctttt aaagtttctg aaaatatctt
-     1081 ttaaataatt acttgactta ataccaattc aattattcat aatattggtc aaccaaattg
-     1141 catgtaatac attgctatat tcttgaatta tttaaaaaag acaagagtgg tcatcattta
-     1201 taaaaggttc gtggtttttc atgttaattt caactttggt tttcttaagt ttattatttt
-     1261 ttttgcagta agagtcattg aaattttaag tgagtcatat tccttaccat ttcctgctga
-     1321 aaagggtagt gtgtgagaaa aatgttagaa aagcaattaa ttatgttcca gagcagattt
-     1381 tcagttgcag tgtacatttc tttttaatgt gagacccaaa tttacatgaa aactcaaagt
-     1441 aagagctggg taacagaaat ggctaactta gaaggtaatg tacgtcttgc ttaaaagcac
-     1501 atcaaagtaa tctactttct caaagagaaa atttacagga gtgaacttac atttcttttg
-     1561 agaacagcat ggttcatagc accaaacttc atttttacag gttgtgaatc ctagagtagt
-     1621 ttgctatcaa cttctgatct ttgcacattc tggatttggc atataatgtt acagcagtgc
-     1681 cattgtaatg ttgcacaaag tagtctagca atttcttggt tcaccaggct tagagataac
-     1741 attgtagaaa tgatccagca tctttaacac tctgtggttt aaggtggggc acttaggggt
-     1801 agaatcaata acaatgttag aaatcaaatt agacaagata actgaaacag catgatccat
-     1861 gtgtgactcc aagttataaa ggaggacatg gattaatggt atacttctag gctatagggg
-     1921 tagtacaagt ggaaggacac catcttagca tcagatcact ttctgagcaa ctttggcaaa
-     1981 tcttttaaat tctctaatgt gtagtttttt aatatatgac acaggtgtaa agaaaataaa
-     2041 gcaagtgaat gtatgtgaaa gccaatgctg actgggcacg ggggctcacg cctgaaattc
-     2101 tagcactttg ggaggcagag ccggggatat cacttgagcc caggagttga agatcagcct
-     2161 gggcaacata gagaaaccct gtctctacaa acaaaacaaa acaaaaaaac aaacacaaaa
-     2221 aaccactccc aaattagccg ggcttgctgg cacactcctg ttgtcccagt tacccgggag
-     2281 gctaagatgg gaggatcacc tgagcttggg aagttgagac tgtaatgagc cgtgatagtg
-     2341 gcactacact ccagcctgat ccacagagtg agaccatgtc tcaaaaaaaa aaaaaaaaaa
-     2401 aaaaagaaag ctaatgcttt ttcccctttc cctgttcccc tgttgttccc cactgcagac
-     2461 agtccttata gcttgatcag tttaaaatac ctgaacttgc tctcttttct tttctttttt
-     2521 cttttctctc tctctttctt tcttttcctc tcctttcccc tcttcccctc tcctctcctc
-     2581 tcctcttctt ttctttttct ttctttctct ctctctctct ctcttttttg ttttcaagac
-     2641 ggggtttctc actgtctccc aggctggagt acagtggctc gatcccagtt cactgcagcc
-     2701 tcattcactc aggctccagt gatcctccca cctcggcttc taagagatgg gaagcaggaa
-     2761 ctgccaggtc agttaaggga tatacctact acttgcccag tgtcactact gctatattcc
-     2821 tgatctaagc agtcaagggc ctatgtagat gaaatggggt acaaagataa aaatacaaag
-     2881 acagacatac cactgtttga cgtgggagtg acaaggtcac actgcaaata aatgtaggct
-     2941 gaggggtatt tttgtggcca tttttggaaa gtacaatctg ccatagcagt aaacacaggg
-     3001 gcaatgaaca aggggcttca ctttgcagct cctctgctct gtttttatta ccaaaaaaaa
-     3061 aaatcctttt aaagtaagat gcctagacaa catagtgaga tgcccacttc ttttcttttc
-     3121 tttctttctt tctttttgag acggagtctc tctgttgccc agggtagagt gcagtggcgc
-     3181 aatctcggct cactgccgct tccacctctc gagatcccat ttctaattta aataaaaaga
-     3241 aagaaagttt ctttgtggat gaagagatag acgtgtacat aactggttag actgtggggc
-     3301 atcatctaag aattataagc caagtgataa gtgagtgcag tggagaaaga tatttatttt
-     3361 gtctttgggg ttgggtgaaa acttcacagt gaatctggct gttgaacagc tccttaaaag
-     3421 actctgaagt agatgaactg aaaagggaga gaaagaaggc caagttgaga aaactcatgt
-     3481 tttcttggac acatattatc ttgatgtggt gggtgatggg atataagggt atgttggtgt
-     3541 gtattgcagg ttagtctgag gttgtgtgta cagggccttt gaagttcgga aaatactcat
-     3601 gtgaaatacc aaaagaagct gagattagta aatctgactt tagattgagc atatttttgc
-     3661 aaaatagcat aaatcctagc agaatttaat ttctccccct gattcttaat attttctttt
-     3721 gaattttaaa acagaaaaac ctgagggtga ttaggatgat aaaaatattt attaaaatgc
-     3781 tttcaaaatc acctagaatt tgaaggctat tctgttttta cttggttaat gtcatctctt
-     3841 ttcaaaatac aggcaaagaa aggtaatagt ttctgctaca gcaatagtga tttttgtttc
-     3901 actttttcaa tcttcttttc actttattat aaaggcaatt ctaaaatgcg cattgacttc
-     3961 atgctttcac attctcaaat cttattataa atgtttctct ctgaattaat tctgatatag
-     4021 ttgttcactg cataatggct gaattttcat aatatatgag ctgcaatatt aaggcacaaa
-     4081 catgatacta gtttaaaaag gaaactagtt ttaattctga acatttcctt atggctttgt
-     4141 gtattctcaa acttactgat ctcagaacct gtttacactc ttaaaaatta ttgaagagcc
-     4201 caggctggtc atggtggctc acgcctgtaa tcccagcact ttgggaggcc gaggcaggtg
-     4261 gatcacgagg tcaggagttt gagaccagcc tggccaatat gctgaaaccc cgtctctact
-     4321 aaaaatacaa aaaaaaaaaa aaattagcca agcgtggtgg catgtgcctg tagtcccagc
-     4381 tattcgggag gctgaggcag gagaattgct tgaacccagg aggtggaggt tgcagtgagc
-     4441 caagactgca tgactgcatt ccatcctgga caatagaggg agactcaatc tcaaaaaaac
-     4501 aaaaaaaaaa ttattgaaga gcccaaagag cttctattca tgagtttata tccattaata
-     4561 tttaatggct tagtgattat gctaaagttt aaaaatattt attcatttag aaaaatccat
-     4621 catatgttaa cacatataac atatatttat tttttaaaaa tgacaatttt caaaaaaaaa
-     4681 ttagtgatga gtggcattgt tttacccttt tgcaaaactc ttcatcgtct ggcctaacag
-     4741 aacatagcta aattctcatg tgctttttca ttcaatctgt tgtaaaatta catgtcatgt
-     4801 agcctctaga aaatttctct gaacacccaa gaggatgaag aggaaaaaaa gacaaacaac
-     4861 attttagtat tattatgaaa atcattttaa ccccacagat ccactgaaaa tctttggggt
-     4921 tcccagatca cactttgaga accactgact tagaacaata tttattcagt gttaattatg
-     4981 agtgaagata aatagaactc aaaattactt acatataaat atatatatta ggtagaaata
-     5041 atgacatagg tttgttttag ccttcatact tacacaatct gaatttctat acaggttgag
-     5101 tatcctttat ctgaaatgct gaggatgaaa ggtgttttag attttaattt tttttggata
-     5161 ttggaatatt tgcatacaca tagtgagata tcttggggat gagacccatg tctaaacata
-     5221 aaattcattt gtttcatata cacatagcct gaaggtaatt ttatatacta ttttaaatat
-     5281 tttgtgcata aacaaagttt ctgttaagta cttatatgtg gaaatttcca cttgtgtaat
-     5341 catgttggtg cgcaaaatgt ttcagattgt gggccatttc agatttcaga tgttcagaat
-     5401 agatatactc aacatgtgtt ataaacttag ttctgctgtc tgataaatta ttcctaagaa
-     5461 gtattatggg ttaatataaa catctagcag aaactcagcc ctattatgtc agtctacatg
-     5521 aaaaataacc ataagttttg actcatatgt acctttaaac ctcattctga atttttttaa
-     5581 aaaaactttt attttgaata attgcagatt tagaggaagt tgcaaaaaat gtacagagaa
-     5641 gtcctgtata tccttcagct tgttccctca ttgaaaatta tcttgtataa ctatagtaca
-     5701 aggtgaatac tagagaactg acattgctgc cgcctataca gcttattcag atttaagaca
-     5761 cacacacaca cacataatac tagtgctctg ttatgcagtt ttatcccatg tgtagattag
-     5821 tgtgactaac atccctatca acatgcggct gtcccatcac cacagctccc ttgtgctatc
-     5881 cctttagagc catactcacc ctcatacact tctttcccag tgctaactct ttgaaaccat
-     5941 taatctattc tctatctcta taattttgtt atttccacag tgttatataa atggaatcat
-     6001 atagtattca gcctgcattc agcacaattc tcttgagatc cattcaagct gctgtgtgta
-     6061 tcaatagtgt gttcattttt ttgttgctgg acagtattcc atggtatggc tataccatca
-     6121 tttgtatgac cattcacctt ctgatggaca tttgaaatgt ttccaatttt tggctactct
-     6181 aaacaaagtt tctatgaata tttatatata agttttgtgt gaacatagtc ttcatttctc
-     6241 tgagataaat gcccaaaagt gcaactgttg gggcatatgg taagtacatg tttagtttta
-     6301 tcagaaactg ccaaagtatt tcccagagtg gctgtaccat tttgtattcc cactagacca
-     6361 gcaatgcctg agttatctgg attctctgca tccatgccag tatttggtgt tattttttat
-     6421 tttagccatt ctgatagata tgtaatatgt cattgtagtt ttaatttgca tttccttaat
-     6481 ggctgataat gttgaatact ttgtgtttat cctccatcaa atgattgtat attttatatc
-     6541 tcatatataa gtttatatat attttcttag gtattatcta gtttaagttc catgttttac
-     6601 aaataaggac attgaggctt cttaacagga tgacagataa tttaaaattt aaattttaaa
-     6661 gaatttaaaa agagaatttt ttgtaattat tattaaacca atttctacag ttaatgtgag
-     6721 aaatgggaag attcagttat ctatctcttt cctaaggaga acttttttta aaaaaaatta
-     6781 catggtttta gtatatgttg ggagctaaaa gcagggaggt caagacactg atgactatta
-     6841 ttaatagtaa tgttgaaact actggttgtt gttatgactg gtaagccaat tttagattaa
-     6901 ctgttttttg tttttttttt tttgccatgt ctgtctgcag gagcgccatg gattactaca
-     6961 gaaaatatgc agctatcttt ctggtcacat tgtcggtgtt tctgcatgtt ctccattccg
-     7021 ctcctgatgt gcagggtgcg tgaccaaatt tgtggttcaa gtaataagga caacacacat
-     7081 ttctagatgt acatcaataa ctccattaat tacatttcta ccaccttttc aaaagtaata
-     7141 agtctttgct gctggattca tatctaggca cttgtagatt gtgaacataa aattaaatta
-     7201 ggttcagaaa atgtgcagtg aaaatgatat cttacacaac catttatgca gcagcctata
-     7261 cattttcatc ggaaatagat tcctttttat tcttgagtct tacaagaaga aaatgctcct
-     7321 tattcagtta gctcagttat tttttacatt tctcccggca gatttgagat tttaacattg
-     7381 cctttgtaga tgaattttca catcagttaa caagtgagaa aaacaaaacc attttataca
-     7441 gtaaatttgt tttgctgtat tgtctgaaaa atctcatata gtagctggta taattccttc
-     7501 tgctttgaaa ttgtgagcta ctattggtta tggtttttct ctatataagt ggtaatattt
-     7561 taatccaggt cccaagtgca ggcgcgtgat ctaatatcag gctctctaca ctcaccaagc
-     7621 tttcttaatt ctgacatatt tctctctgtc aatatttgga gttactgtgg gaaaaacaat
-     7681 agcagattct aaagggaaaa atatttttcc tctgtgcaaa attctctttt cagatgaaca
-     7741 tgatgttttc atctgtcaag ttttgtgttt cctctaggca tactgttagc attgggatag
-     7801 agaatccatg cttgaagaga gactacaact gagattttct atgcatatct gtaaaaaatg
-     7861 tttgttttta agttttattt cccatgaaca ttaatcagta taaatattaa atagatatta
-     7921 tagatgaaga ttaacatata accaaaaagc acttacttag tttcctttca tttttgatga
-     7981 aaaaataata ttcactatcc cataataagg aagcattcac agtttctttt ctttgttgcc
-     8041 ttgccttgtc ttgccttgcc ttttcttttg agacagagtc tcgttctatc acccaggctg
-     8101 gagtgcaatc gtgtgatctc agcttactgc aacctccgcc ttccgggttc tagtgattct
-     8161 tctgcctcag ccttctgagt agctggtatt acaggcacct gccaccatgc ccagcgaaat
-     8221 ttttgtattt ttagtagaga tggggtttca ccatgttggc caggctggtc tcgaattcct
-     8281 aacctctggt gatccacctg cctcagcctc ccaaagtgct cggattacag gcgtgagcca
-     8341 ccacattttt tcttattttt ttgagtcagg gtctcacttt gtcacccagg ctggagtgca
-     8401 gtggcatgat ctcggctcac tgtagcctcg acctcccagc ttcaagcgat tcttctgccc
-     8461 cagaccctca agcagctggg actacaggtg tgcaccatca cgtctggcta atttttgttg
-     8521 ttgttgtatt ttttgtagag acagggtttc accatgttgc ccaggctgct ctcaaactcc
-     8581 tgagctcaag caatccaccc actaaggcct cccaaagtgc taggattaca ggcgtgagct
-     8641 actgtgctgg cctcatagat tctttttgag tcttttttgg atattttact ctgccttttt
-     8701 ttttccctga tagattgccc agaatgcacg ctacaggaaa acccattctt ctcccagccg
-     8761 ggtgccccaa tacttcagtg catgggctgc tgcttctcta gagcatatcc cactccacta
-     8821 aggtccaaga agacgatgtt ggtccaaaag aacgtcacct cagagtccac ttgctgtgta
-     8881 gctaaatcat ataacagggt aagaacctca agatccccag aagctttcta acagcccaat
-     8941 cagagaaatg ttcatagagc ccacccatgg aatttaatgc caaaggtgtc taatgaccca
-     9001 gcctctgtcg agcatttgta caggtgggga atacatttct acccattaat taaaagagtc
-     9061 aattgtcttg tgggtataga ctggatttat tcagaatgag gagaataggg gtagaggtga
-     9121 caaggggcag gttgggagaa agtacagctt acttgtgcta aaaatatttc ctaaaaagga
-     9181 gactgtgcaa atgtagtatg catctactta tttcagcaga atgcaaacaa ttttatgtaa
-     9241 tattcttcaa ttttgtctct atctatctat ctatcatcta atctataata tgtttttttt
-     9301 tccttcccct ttaggtcaca gtaatggggg gtttcaaagt ggagaaccac acggcgtgcc
-     9361 actgcagtac ttgttattat cacaaatctt aaatgtttta ccaagtgctg tcttgatgac
-     9421 tgctgatttt ctggaatgga aaattaagtt gtttagtgtt tatggctttg tgagataaaa
-     9481 ctctcctttt ccttaccata ccactttgac acgcttcaag gatatactgc agctttactg
-     9541 ccttcctcct tatcctacag tacaatcagc agtctagttc ttttcatttg gaatgaatac
-     9601 agcatttagc ttgttccact gcaaataaag ccttttaaat catcattcaa
+        1 ggggtgaacc gtgacagcgc ttcggcccgc actaaggccg gctcttgtgc cggaaggagg
+       61 aaggcgtggg gcattcgccc ctcggagcta gggagtgtgt gcgacgccgc tgcgaggtca
+      121 cgtgagccac tgccggcaga gagggaaagg ggcggggccc agaacgaagc ggggaggcgc
+      181 cccttgtttc cctggggtca cgcgcagccg gaagtggcgg ctgctgcgga gaattggaga
+      241 tggggaccgc cctggacatc aagattaaaa gagcgaataa agtttatcac gccggggaag
+      301 tgctctctgg cgtggtggtc atatcgagta aggattcagt ccaacaccag ggagtgtctt
+      361 tgaccatgga aggaactgta aacctccagc tcagtgccaa aagtgtgggt gtgtttgaag
+      421 ctttttataa ttctgttaag cctatccaga ttatcaacag caccatagaa atggtgaagc
+      481 cggggaaatt tcccagcggc aaaacagaaa tcccttttga atttcctctg cacttgaagg
+      541 gtaacaaagt tctgtatgag acgtatcatg gcgtgtttgt caacattcag tatacactgc
+      601 gctgtgacat gaagcggtct ctgttggcca aggacttgac aaagacctgt gaatttatcg
+      661 ttcactccgc tcctcagaag gggaagttta ctcccagtcc cgtggacttc acgattacac
+      721 ctgaaacctt acagaacgtc aaagagagag ctttgcttcc caaatttctc cttcgaggac
+      781 atctcaactc aacaaactgt gtcatcacgc agccactaac gggagagctg gtggtggaga
+      841 gctcggaagc cgccatcaga agcgtggagc tgcagctggt gcgcgtggag acgtgcgggt
+      901 gtgcagaagg ctatgcccgc gacgccacgg agattcagaa cattcagatc gccgacgggg
+      961 atgtgtgcag gggcctctct gtccccatct acatggtctt ccctaggctg ttcacctgcc
+     1021 ctacactgga gaccaccaac ttcaaagtgg aatttgaggt taacatcgtg gtgctgcttc
+     1081 accctgacca cctcatcacg gagaacttcc cgctgaagct ctgcaggata tagcccggag
+     1141 gagggaagca tagagaacgg gagtggccat ctggaaatcc agctggttat ccaaatccta
+     1201 aggggagcta cagccagcgg catatacttg tttttgtgat tattctgtat cagaaatgaa
+     1261 acagaccctc aaattaactt tccttcctca tttcttgagg cttctgcttc caacaggcac
+     1321 ctctaatcag accttttctt tgaaattcaa caagatttct taatgctatt tgccaagacc
+     1381 atttcacaga aaacattgac tgtggctctt gccttatctg ttccttttta ggtacagtaa
+     1441 aacaattgtg acagcagttt gagcttgctg gagagtggca tcatggggac aaaaggaaac
+     1501 ctctgacttg ctaatggatg tagccaggga ctccccatag caaagggtct gtggccagtt
+     1561 gacatccagg atggctgcaa gcgcacttga tggtcaggaa gtttgcagat actcgccaag
+     1621 gcagagcgca aagtgctagc cactggaaat gcatgacttc cctccacccc tactctattc
+     1681 tgtagttttt tggttttgtt tctgagacgg agtctcagtc tgtcacccag gctggagtga
+     1741 tctcagctca ctgcaacctc cacctcccag gttcaagcga ctctcctgcc tcagcctccc
+     1801 gagtagttgg gattacaggt gactgccacc gtgcccggct aatgtttgta tttttagtag
+     1861 agacggggct tcaccatctt ggccaggctg gtcttgaact cctgacctcg tgacccaccc
+     1921 gccttggcct cccaaagtgc tgggattaca ggtgtgagcc accacaccca gcctctgtag
+     1981 ttctttttac aacatttttc attataactt taaatttttt aagcaactgg aaaagtgttc
+     2041 cttgctctct tggggggatt tggctggtgc cgaagtgttt ctgaagtctc aagaactgcc
+     2101 ataaaatctc acgctgccat ttccctgaac agatacatac atagagagag acagttttcc
+     2161 aaactgtgtc acgcaggctg agtgcactgg caggatcaca gctcacggca gcctcaacct
+     2221 ccctggctca agcgatccct cccctcagcc tcctgagtag ctgagactac aggtgagtgc
+     2281 caccacactc agctaatttt caaatttttt gtagacaggg tctccctatg ttgcccaggc
+     2341 tggtcttgaa ctcctagact caagtgatcc tcctgtcttg gcctcccaaa gtgctgagat
+     2401 tacaggtgtg agccactgtg cccagcagtt tcccagaata tatttaaatg caaagttaca
+     2461 tgaggggaaa acatgtatgt ttgctcctgt tgttactggg taggttctga acagcagaaa
+     2521 cccatgtgca gggtgggctg gtgaaggccc ctctccgcaa ggtggtagca ggaaaaggtc
+     2581 cttgacttga tgaatttggt ctgcctctga gccactggag gaagctgttt tgagccaggg
+     2641 ttttttggcc taaagccagc atttcctcag tctccctttg tggttcgaag gatatggact
+     2701 attgcaatac atttcttcct tcaaatcctg ccactgtttt gttggcccac aactaatagg
+     2761 acctcaaaat aagccatgct gctttgcaca cacactagcc ttcttttgta cttttcattc
+     2821 tggatgggct tggccaaaac aggctcaggc caaagacctc ccaagctgta tgtacttcca
+     2881 gtatcctgaa acagtgtttg gtgacataat gccaagggta aacaagcctg atttaggcac
+     2941 tgctttatcc aggggcttca cccatgaaat taataaaact tatctgagtc acttgaaact
+     3001 tggttcccag aaaacacatt tctggtttat aatctccttt tatgctcacc tgacattaat
+     3061 tatctatcct tgatgatgtg tttaaactga gtagcagaaa acagaggcca cactttctgg
+     3121 gaaattttaa aggaagaaac catttttaat gagatgaaaa tatttaacga atttaaaaag
+     3181 ctaatgacaa ttttgagaaa aggtttggga tgtatattgc tatgtaattt aataaactga
+     3241 ttttatggat at
 //
 
