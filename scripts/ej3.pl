@@ -20,8 +20,9 @@ while ( my $result = $searchio->next_result() ) {
 		my $hit_name = $hit->name ;
 		# get info about the first hsp of the first hit
 		my $hsp = $hit->next_hsp;
-		my $hsp_start = $hsp->query->start;
-	
+		if (defined($hsp)){
+			my $hsp_start = $hsp->query->start;
+		}
 		# get species description	
 		my $string = $hit->description();
 		my $acc = $hit->accession();
