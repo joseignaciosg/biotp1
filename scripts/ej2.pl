@@ -10,7 +10,6 @@ my @s;
 my $i=0;
 while ($i < @ARGV )
 {
-
  $s[$i] = Bio::SeqIO->new(
   -file => $ARGV[$i],
   -format => "fasta"
@@ -24,7 +23,7 @@ while ($i < @ARGV )
         my $blast_result = blast_sequence($st->seq);
 
         # write blast results to the specified file
-        write_blast(">output/blast$i.out",$blast_result);
+        write_blast(">output/ej2/blast$i.out",$blast_result);
  }
  $i++;
 }
