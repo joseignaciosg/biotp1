@@ -9,12 +9,12 @@ use Getopt::Long;
 
 
 my $in = Bio::SeqIO->new(-file => "$ARGV[0]", '-format' => 'genBank');
-my $out1 = Bio::SeqIO->new(-file => ">output/out-0F", '-format' => 'Fasta');
-my $out2 = Bio::SeqIO->new(-file => ">output/out-1F", '-format' => 'Fasta');
-my $out3 = Bio::SeqIO->new(-file => ">output/out-2F", '-format' => 'Fasta');
-my $out4 = Bio::SeqIO->new(-file => ">output/out-0R", '-format' => 'Fasta');
-my $out5 = Bio::SeqIO->new(-file => ">output/out-1R", '-format' => 'Fasta');
-my $out6 = Bio::SeqIO->new(-file => ">output/out-2R", '-format' => 'Fasta');
+my $out1 = Bio::SeqIO->new(-file => ">output/out-0F.fa", '-format' => 'Fasta');
+my $out2 = Bio::SeqIO->new(-file => ">output/out-1F.fa", '-format' => 'Fasta');
+my $out3 = Bio::SeqIO->new(-file => ">output/out-2F.fa", '-format' => 'Fasta');
+my $out4 = Bio::SeqIO->new(-file => ">output/out-0R.fa", '-format' => 'Fasta');
+my $out5 = Bio::SeqIO->new(-file => ">output/out-1R.fa", '-format' => 'Fasta');
+my $out6 = Bio::SeqIO->new(-file => ">output/out-2R.fa", '-format' => 'Fasta');
 
 my @seqs = Bio::SeqUtils->translate_6frames($in->next_seq());
 
