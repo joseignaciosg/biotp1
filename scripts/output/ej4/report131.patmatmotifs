@@ -1,9 +1,9 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Wed 26 Nov 2014 01:45:33
+# Rundate: Wed 26 Nov 2014 12:45:45
 # Commandline: patmatmotifs
-#    -sequence output/ej4/resultbioinf130.orf
 #    -full 1
+#    -sequence output/ej4/resultprosite130.orf
 #    -outfile output/ej4/report131.patmatmotifs
 #    -auto
 # Report_format: dbmotif

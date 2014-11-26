@@ -1,8 +1,8 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Wed 26 Nov 2014 01:45:28
+# Rundate: Wed 26 Nov 2014 12:45:41
 # Commandline: patmatmotifs
-#    -sequence output/ej4/resultbioinf27.orf
+#    -sequence output/ej4/resultprosite27.orf
 #    -full 1
 #    -outfile output/ej4/report28.patmatmotifs
 #    -auto

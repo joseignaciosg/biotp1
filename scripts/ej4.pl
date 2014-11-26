@@ -44,18 +44,25 @@ while( $line = <$info>)  {
 		my $patmatmotifs = $f->program('patmatmotifs');
 		my $k = $j-1;
 		my $outfile = "output/ej4/report$j.patmatmotifs";
-		$infile = "output/ej4/resultbioinf$k.orf";
+		$infile = "output/ej4/resultprosite$k.orf";
 		$patmatmotifs->run({-sequence => $infile,
                 	        -outfile   => $outfile,
                     		-full => 1 });
+		open(INFILE, $outfile) or die "ERROR:canont open file $!";
+    		open(OUTFILE, ">>output/ej4/resultprosite.patmatmotifs") or die "ERROR:cannot create file $!";
+    		foreach(<INFILE>){
+       			print OUTFILE  $_;
+		}
 	}
-	my $aux = "output/ej4/resultbioinf$j.orf";
+	my $aux = "output/ej4/resultprosite$j.orf";
 	unless(open FILE, '>'.$aux) {
 		die "Unable to open $aux";
 	}
 	$j++;
-    } 
-    print FILE $line;	
+    }else{	
+	$line =~ s/\R//g;
+    }
+    print FILE $line;
     $i++; 
 }
 close $info;

@@ -1,10 +1,10 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Wed 26 Nov 2014 01:45:27
+# Rundate: Wed 26 Nov 2014 12:45:39
 # Commandline: patmatmotifs
-#    -outfile output/ej4/report1.patmatmotifs
-#    -sequence output/ej4/resultbioinf0.orf
+#    -sequence output/ej4/resultprosite0.orf
 #    -full 1
+#    -outfile output/ej4/report1.patmatmotifs
 #    -auto
 # Report_format: dbmotif
 # Report_file: output/ej4/report1.patmatmotifs
