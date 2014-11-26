@@ -38,7 +38,7 @@ while ( my $result = $searchio->next_result() ) {
      				 }  
 			}
 
-			my $outfile = "blast-parsed-fasta.fa"; 
+			my $outfile = "output/ej3/blast-parsed-fasta.fa"; 
 			my $outfileformat = 'Fasta';
 			my $gb = Bio::DB::GenBank->new(-retrievaltype => 'tempfile' , -format => 'Fasta');
 			my $seq_in = $gb->get_Stream_by_acc($acc);
