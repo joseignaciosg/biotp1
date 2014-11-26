@@ -1,7 +1,11 @@
 #!/usr/bin/perl -w
 
-#http://emboss.toulouse.inra.fr/cgi-bin/emboss/help/getorf
+system "getorf -minsize 300 -sequence " . $ARGV[0] . " -outseq output/result.orf";
 
-use strict;
-use Bio::Factory::EMBOSS;
-my $f = Bio::Factory::EMBOSS -> new();
+
+#seteando la base de datos de prosite
+system "sudo prosextract -prositedir /home/jose/biotp1/scripts/prositedir";
+
+
+
+system "patmatmotifs -sequence output/result.orf -outfile output/report.patmatmotifs"
