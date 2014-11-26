@@ -1,0 +1,69 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 26 Nov 2014 01:45:34
+# Commandline: patmatmotifs
+#    -outfile output/report.patmatmotifs
+#    -full 1
+#    -sequence output/resultbio1.orf
+#    -auto
+# Report_format: dbmotif
+# Report_file: output/report.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_006052_1     from: 1   to: 27
+# HitCount: 1
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 17 of sequence
+End = position 20 of sequence
+
+Motif = AMIDATION
+
+ALVPEGGRRGAFAP
+     |  |
+    17  20
+
+
+#---------------------------------------
+#
+# Motif: AMIDATION
+# Count: 1
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# ***************
+# 
+#
+#---------------------------------------

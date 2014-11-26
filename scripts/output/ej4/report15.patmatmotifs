@@ -1,0 +1,66 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 26 Nov 2014 01:45:27
+# Commandline: patmatmotifs
+#    -full 1
+#    -sequence output/ej4/resultbioinf14.orf
+#    -outfile output/ej4/report15.patmatmotifs
+#    -auto
+# Report_format: dbmotif
+# Report_file: output/ej4/report15.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_006052_15     from: 1   to: 93
+# HitCount: 1
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 54 of sequence
+End = position 56 of sequence
+
+Motif = RGD
+
+AAAGARGDVRVCR
+     | |
+    54 56
+
+
+#---------------------------------------
+#
+# Motif: RGD
+# Count: 1
+# 
+# ****************************
+# * Cell attachment sequence *
+# ****************************
+# 
+# The sequence Arg-Gly-Asp, found in fibronectin, is crucial for its interaction
+# with its cell surface receptor, an integrin [1,2].  What  has  been called the
+# 'RGD' tripeptide is also found in the sequences of a number of other proteins,
+# where it has been shown to play a role in cell adhesion.   These proteins are:
+# some forms of collagens, fibrinogen, vitronectin, von Willebrand factor (VWF),
+# snake disintegrins, and slime mold discoidins.   The 'RGD'  tripeptide is also
+# found in other proteins  where  it  may also,  but not always,  serve the same
+# purpose.
+# 
+# -Consensus pattern: R-G-D
+# -Last update: December 1991 / Text revised.
+# 
+# [ 1] Ruoslahti E., Pierschbacher M.D.
+#      "Arg-Gly-Asp: a versatile cell recognition signal."
+#      Cell 44:517-518(1986).
+#      PubMed=2418980
+# [ 2] d'Souza S.E., Ginsberg M.H., Plow E.F.
+#      Trends Biochem. Sci. 16:246-250(1991).
+# 
+# ***************
+# 
+#
+#---------------------------------------

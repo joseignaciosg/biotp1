@@ -1,0 +1,26 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 26 Nov 2014 01:45:33
+# Commandline: patmatmotifs
+#    -outfile output/ej4/report134.patmatmotifs
+#    -sequence output/ej4/resultbioinf133.orf
+#    -full 1
+#    -auto
+# Report_format: dbmotif
+# Report_file: output/ej4/report134.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_006052_134     from: 1   to: 26
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
