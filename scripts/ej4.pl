@@ -8,7 +8,6 @@ use strict;
 use Bio::SeqIO;
 use Bio::Factory::EMBOSS;
 
-#primero paso el archivo a fasta 
 my $in = Bio::SeqIO->new(-file => "$ARGV[0]", '-format' => 'genBank');
 my $fastafilename = "$ARGV[0]" .".fas";
 my $out = Bio::SeqIO->new(-file => ">$fastafilename", '-format' => 'Fasta');
@@ -30,6 +29,40 @@ my $getorfoutfile = 'output/resultbio1.orf';
 $getorf->run({-sequence => $fastafilename,
                -outseq   => $getorfoutfile});
 
+my $file = $getorfoutfile;
+open my $info, $file or die "Could not open $file: $!";
+
+my $i=0;
+my $j=0;
+my $line;
+while( $line = <$info>)  {   
+    if ($line =~ /^>/){
+	print $line;
+	my $infile;
+	if ( $i != 0 ){
+		close FILE;
+		my $patmatmotifs = $f->program('patmatmotifs');
+		my $k = $j-1;
+		my $outfile = "output/ej4/report$j.patmatmotifs";
+		$infile = "output/ej4/resultbioinf$k.orf";
+		$patmatmotifs->run({-sequence => $infile,
+                	        -outfile   => $outfile,
+                    		-full => 1 });
+	}
+	my $aux = "output/ej4/resultbioinf$j.orf";
+	unless(open FILE, '>'.$aux) {
+		die "Unable to open $aux";
+	}
+	$j++;
+    } 
+    print FILE $line;	
+    $i++; 
+}
+close $info;
+close FILE;
+
+
+
 #my $checktransoutgile = 'output/resultbio2.orf';
 #my $checktransoutgileseq = 'output/resultbio2seq.orf';
 #$checktrans->run({-sequence => $fastafilename,
@@ -37,13 +70,15 @@ $getorf->run({-sequence => $fastafilename,
 #	       -outseq  => $checktransoutgileseq});
 
 #buscando motifs en PROSITE
+
 my $patmatmotifs = $f->program('patmatmotifs');
 
-my $outfile = '>>output/report.patmatmotifs';
+my $outfile = 'output/report.patmatmotifs';
 
 $patmatmotifs->run({-sequence => $getorfoutfile,
-                     -outfile   => $outfile });
-
+                     -outfile   => $outfile,
+		    -full => 1 });
+ 
 
 
 
